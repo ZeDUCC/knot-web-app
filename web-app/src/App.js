@@ -22,7 +22,7 @@ function App() {
                 <div id="side-box-2-text">seo</div>
                 <div id="side-box-3-text">ad marketing</div>
                 <div id="carousel">
-                    {/* <div id="slide-1">
+                    <div id="slide-1">
                         <div id="slide-1a">
                             Enjoy the benefits of our creative expertise.
                         </div>
@@ -32,7 +32,7 @@ function App() {
                                 Boost your business and get your name out there.
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                     <div id="slide-2">
                         <div id="slide-2a">
                             <div id="slide-2a1">Transforming clicks into customers.</div>
