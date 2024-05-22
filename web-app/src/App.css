@@ -1,0 +1,169 @@
+.App {
+    font-family: 'DM Sans', sans-serif;    
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+body {
+    overflow: hidden;
+    background-color: black;
+}
+
+.App-header {
+    background: radial-gradient(50% 50% at 50% 50%, #004C93 0%, #000E29 100%);
+    width: 100%;
+    height: 100%;
+}
+
+#logo {
+    position: absolute;
+    left: -63.5vw;
+    top: -83vh;
+    scale: 5%
+}
+
+#company-name {
+    position: absolute;
+    font-size: 36px;
+    color: white;
+    top: 4vh;
+    left: 9vw;
+    font-weight: 700;
+}
+
+#display {
+    position: relative;
+    left: 29vw;
+    scale: 110%;
+    top:  9vh
+}
+
+#side-box-div {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35vh;
+    left: 5vw
+}
+
+#box-1, #box-2 {
+    margin-bottom: 2vw
+}
+
+#call-to-action {
+    position: absolute;
+    top: 75vh;
+    left: 3vw;
+}
+
+#cta-text {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: 77.5vh;
+    left: 7.5vw;
+}
+
+#side-box-1-text {
+    color: #d9d9d9;
+    font-size: 20px;
+    position: absolute;
+    top: 37vh;
+    left: 7vw;
+}
+
+#side-box-2-text {
+    color: #d9d9d9;
+    font-size: 20px;
+    position: absolute;
+    top: 48vh;
+    left: 11vw;
+}
+
+#side-box-3-text {
+    color: #d9d9d9;
+    font-size: 20px;
+    position: absolute;
+    top: 59vh;
+    left: 8vw;
+}
+
+#carousel {
+    border-radius: 35px;
+    position: absolute;
+    left: 30vw;
+    top: 15vh;
+    height: 75vh;
+    width: 65vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#slide-1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#slide-1a {
+    position: relative;
+    border-radius: 35px;
+    width: 38%;
+    height: 100%;
+    background: rgba(217, 217, 217, 0.16);
+    margin-right: 2%;
+    font-size: 60px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4%;
+    line-height: 1.6;
+    padding-right: 4%;
+    box-sizing: border-box
+}
+
+#slide-1b {
+    position: relative;
+    border-radius: 35px;
+    width: 60%;
+    height: 100%;
+}
+
+#slide-1b1 {
+    position: relative;
+    border-radius: 35px;
+    width: 100%;
+    height: 25%;
+    background: rgba(217, 217, 217, 0.16);
+    margin-bottom: 4%;
+    font-size: 35px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 20%;
+    box-sizing: border-box
+}
+
+#slide-1b2 {
+    position: relative;
+    border-radius: 35px;
+    width: 100%;
+    height: 71%;
+    background: rgba(217, 217, 217, 0.16);
+    box-sizing: border-box;
+    padding-left: 8%;
+    font-size: 60px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20%
+}
